@@ -1,0 +1,175 @@
+.maindiv {
+	background-color: #FAFAFA;
+	overflow-x: hidden;
+}
+
+
+.thirddiv {
+	float: left;
+	height: 600px;
+	width: 600px;
+	background-color: white;
+	border-radius: 50%;
+	border: 3px solid white ;
+	margin-left:200px;
+}
+.heroimage {
+	height: 550px;
+	width: 550px;
+	border-radius: 50%;
+	margin: 25px 10px 10px 25px;
+}
+.right-div{
+	margin: 3%; 
+	position: relative;
+	left:200px;
+}
+.coimage {
+	margin: 85px 1px 1px 1px ;
+	top: 106px;
+	left: 906px;
+	width: 272px;
+	height: 58px;
+	/* UI Properties */
+	opacity: 1;
+}
+
+.textbox {
+	width: 375px;
+	height: 50px;
+	border-radius: 5px;
+	font-size: 15px;
+	border: solid 1px grey;
+	font: normal normal normal 15px/20px Roboto;
+}
+.login {
+	width: 138px;
+	height: 45px;
+	background: #C8242F 0% 0% no-repeat padding-box;
+	border-radius: 30px;
+	font-size: 20px;
+	color: white;
+	border: none;
+	font: normal normal medium 18px/24px Roboto;
+}
+.link{
+	color:grey;
+	margin:0px 0px 0px 125px;
+	text-decoration:none;
+}
+.font {
+	font: normal normal 300 40px/47px Roboto
+}
+.font span {
+	color: #C8242F;
+	
+	font:normal normal 300 40px/47px Roboto;
+}
+.anchor {
+	color: red;
+	text-decoration: none;
+}
+p{
+	color:grey;
+}
+
+
+
+
+/* Media Query */
+
+
+
+@media only screen and (min-width:360px) and (max-width:1127px){
+	.textbox {
+		
+		margin-left:8%;
+	}
+	.login{
+		margin-left:8%;
+	}
+	.link{
+		margin-left:0%;
+	}
+	.font{
+		margin-left:5%;
+	}
+	.coimage{
+		margin-left:15%;
+	}
+	.font1{
+		margin-left:15%;
+	}
+	.link{
+		margin-left:15%;
+	}
+	.anchor{
+		margin-left:0%;
+	}
+	.seconddiv{
+		margin-left:0%;
+	}
+	.thirddiv {
+		
+		margin-left:250px;
+	}
+	.heroimage {
+		height: 550px;
+		width: 550px;
+		border-radius: 50%;
+		margin: 25px 10px 10px 25px;
+	}
+	.right-div{
+		margin-left:10%;
+	}
+}
+@media only screen and (min-width:1127px) and (max-width:1400px){
+	.textbox {
+		
+		margin-left:0%;
+	}
+	.login{
+		margin-left:0%;
+	}
+	.link{
+		margin-left:0%;
+	}
+	.font{
+		margin-left:0%;
+	}
+	.coimage{
+		margin-left:0%;
+	}
+	.font1{
+		margin-left:0%;
+	}
+	.link{
+		margin-left:10%;
+	}
+	.anchor{
+		margin-left:0%;
+	}
+	.seconddiv{
+		margin-left:0%;
+	}
+	.thirddiv {
+		height:auto;
+		width:auto;
+		margin-left:100px;
+	}
+	.heroimage {
+		height:550px;
+		width:550px;
+		border-radius: 50%;
+		margin: 25px 10px 10px 25px;
+	}
+	.right-div{
+		margin-left:10%;
+	}
+	.font {
+		font: normal normal 300 30px/47px Roboto
+	}
+}
+    
+
+   

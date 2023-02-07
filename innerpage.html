@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/dashboard-media.css" />
+  <link rel="stylesheet" href="/css/dashboard-style.css" />
+  <link rel="stylesheet" href="/css/innerpage.css" />
+</head>
+<body>
+
+<nav class="navbar-dashboard">
+
+  <div class="menu-logo">
+      <img src="images/menu-bar.svg" id="menu-icon-inner" />
+      <img src="images/header-logo.svg" id="header-logo-inner" />
+  </div>
+
+
+
+  <div class="search-box-nav">
+      <img src="images/search-icon.svg" id="search-icon-inner" />
+      <input type="search" name="search" id="search-input" placeholder="Search" />
+  </div>
+
+
+  <div class="rightside-navigation">
+      <img src="images/notification-icon.svg" id="notification-icon-inner" />
+
+
+      <div class="navigation-profile-inner">
+          <img src="images/profile.png" id="profile-icon" />
+          <span>John Doe</span>
+          <img src="images/downward-arrow.svg" id="down-arrow" />
+      </div>
+  </div>
+
+  <img src="images/downward-arrow.svg" id="close-arrow">
+</nav>
+
+<section class="dashboard-body" style="display: flex; flex-direction: row;">
+
+  <div class="left-sidebar-dash open">
+      <div class="dashboard-item-left item-active">
+              <img src="images/dashboard-active.svg" class="dashboard-item-icon" />
+              <span>Dashboard</span>
+      </div>
+      <div class="dashboard-item-left">
+          <img src="images/graph-default.svg" class="dashboard-item-icon" />
+          <span>Analysis</span>
+      </div>
+
+
+
+      <div class="dashboard-item-left">
+          <img src="images/inbox-default.svg" class="dashboard-item-icon" />
+          <span>inbox</span>
+      </div>
+
+
+      <div class="dashboard-item-left">
+          <img src="images/clock-default.svg" class="dashboard-item-icon" />
+          <span>History</span>
+      </div>
+
+
+      <div class="dashboard-item-left">
+          <img src="images/user-default.svg" class="dashboard-item-icon" />
+          <span>Users</span>
+      </div>
+
+      <div class="dashboard-item-left">
+          <img src="images/maintenance-default.svg" class="dashboard-item-icon" />
+          <span>Maintenance</span>
+      </div>
+
+      <div class="dashboard-item-left">
+          <img src="images/setting-default.svg" class="dashboard-item-icon" />
+          <span>Settings</span>
+      </div>
+
+      <div class="dashboard-item-left" class="profile-in-slidebar">
+          <img src="images/profile.png" class="dashboard-item-icon profile-in-slidebar"/>
+          <span class="profile-in-slidebar">John Doe</span>
+      </div>
+      <span class="profile-in-slidebar"><img src="images/downward-arrow.svg" alt=""></span>
+
+  </div>
+
+
+  <div class="analysis-form-right">
+      <h1>Analysis</h1>
+      <div class="one-column">
+        <h3>One Column</h3>
+
+        <input type="text" name="" id="one-column-name" placeholder="Name"/>
+
+        <select name="" id="one-column-dropdown">
+          <option value="" selected>Dropdown</option>
+          <option value="" selected>Dropdown</option>
+          <option value="" selected>Dropdown</option>
+          <option value="" selected>Dropdown</option>
+        </select>
+
+        <textarea name="" id="one-column-textarea" cols="30" rows="10" placeholder="Multiple Lines"></textarea>
+      </div>
+
+
+      <div class="two-column">
+        <h3>Two Column</h3>
+        <div class="two-column-grid-container">
+          <input type="text" name="" id="two-column-name" placeholder="Name">
+          <input type="text" name="" id="two-column-username" value="John Doe" />
+          <input type="password" name="" id="two-column-password" placeholder="Password">
+          <select name="" id="two-column-dropdown">
+            <option value="" selected>Dropdown</option>
+            <option value="" selected>Dropdown</option>
+            <option value="" selected>Dropdown</option>
+            <option value="" selected>Dropdown</option>
+          </select>
+        </div>
+      </div>
+
+      <div class="three-column">
+        <h3>Three Column</h3>
+
+        <div class="three-column-flex-container">
+          <input type="text" name="" id="three-column-name">
+          <input type="password" name="" id="three-column-password" value="123456">
+          <input type="text" name="" id="three-column-disable" placeholder="Disabled" disabled>
+        </div>
+      </div>
+
+
+
+
+      <div class="four-column">
+        <h3>Four Column</h3>
+
+        <div class="four-column-flex-container">
+          <input type="text" name="" id="four-column-designation" value="UI Designer">
+          <input type="text" name="" id="four-column-name" placeholder="Name">
+          <input type="text" name="" id="four-column-username" value="JohnDoe">
+          <select name="" id="four-column-dropdown">
+            <option value="" selected>Select</option>
+            <option value="">Dropdown</option>
+            <option value="">Dropdown</option>
+            <option value="">Dropdown</option>
+          </select>
+        </div>
+      </div>
+
+
+
+      <div class="other-design-element">
+        <h3>Other Design Elements</h3>
+        <div class="file-upload">
+          <h4>File Upload</h4>
+          <input type="file" name="" id="other-element--file">
+        </div>
+
+        <div class="radio-button">
+          <h4>Radio Buttons</h4>
+          <input type="radio" name="radio" id="other-element--radio1"> Option1
+          <input type="radio" name="radio" id="other-element--radio2" checked> Option2
+        </div>
+
+
+        <div class="check-box">
+          <h4>Checkbox</h4>
+          <input type="checkbox" name="male" id="other-element--checkbox1"> Option1
+          <input type="checkbox" name="female" id="other-element--checkbox2" checked> Option2
+        </div>
+
+
+        <h3 id="snackbar">Snackbar</h3>
+        <div class="snackbar">
+          <div class="inner-snackbar red">
+            <img src="images/error-icon.svg" alt="">
+            <span>This is an error message</span>
+          </div>
+          <div class="inner-snackbar blue">
+            <img src="images/info-icon.svg" alt="">
+            <span>This is an information message</span>
+          </div>
+          <div class="inner-snackbar yellow">
+            <img src="images/warning-icon.svg" alt="">
+            <span>This is warning message</span>
+          </div>
+          <div class="inner-snackbar green">
+            <img src="images/check-icon.svg" alt="">
+            <span>This is success message</span>
+          </div>
+        </div>
+
+        <h3 id="snackbar">Call To Action</h3>
+        <div class="call-to-action">
+          <button type="btn1">Primary</button>
+          <button type="btn2">Secondary</button>
+        </div>
+
+
+        <div class="tabs">
+          <h3 id="snackbar">Tabs</h3>
+
+          <ul>
+            <li>Tab1</li>
+            <li>Tab2</li>
+            <li>Tab3</li>
+
+            <small id="underline"></small>
+          </ul>
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt necessitatibus id, magnam alias at fugiat voluptates, omnis quas aperiam perferendis voluptate doloribus reprehenderit nostrum sapiente beatae hic velit repellendus doloremque excepturi officia vero! Quam iusto maiores, rerum commodi obcaecati ipsa quos debitis voluptates ea! Eveniet doloribus minima error vitae architecto maxime quo ipsum molestias reiciendis perferendis doloremque, praesentium perspiciatis nostrum in placeat, eum ipsam atque tempora illum. Eum distinctio odio ex beatae ad vitae sint illum tempora cum qui, repudiandae non maxime amet rerum accusamus, animi quaerat. Labore, voluptatum! Illo quo hic accusamus earum, dolor unde. Dolore temporibus amet saepe veritatis voluptatibus iure eveniet debitis tempora cum deleniti, ducimus reiciendis autem.</p>
+      </div>
+  </div>
+
+
+
+</section>
+</body>
+</html>
