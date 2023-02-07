@@ -30,7 +30,6 @@
 	left: 906px;
 	width: 272px;
 	height: 58px;
-	/* UI Properties */
 	opacity: 1;
 }
 
@@ -72,13 +71,6 @@
 p{
 	color:grey;
 }
-
-
-
-
-/* Media Query */
-
-
 
 @media only screen and (min-width:360px) and (max-width:1127px){
 	.textbox {
